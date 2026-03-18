@@ -1,3 +1,12 @@
+import os
+import sys
+
+def get_model_path():
+    if hasattr(sys, '_MEIPASS'):
+        return os.path.join(sys._MEIPASS, "models/face_landmarker.task")
+    return "models/face_landmarker.task"
+
+MODEL_PATH = get_model_path()
 import cv2
 import mediapipe as mp
 from mediapipe.tasks.python import BaseOptions

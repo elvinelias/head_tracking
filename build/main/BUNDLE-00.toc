@@ -1,3 +1,0 @@
-([('main',
-   '/Users/elvinelias/Desktop/head_motion_controller/dist/main',
-   'EXECUTABLE')],)
